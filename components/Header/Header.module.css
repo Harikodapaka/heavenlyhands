@@ -1,0 +1,50 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--mantine-color-body);
+  border-bottom: 1px solid var(--mantine-color-gray-3);
+}
+
+.inner {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoImage {
+  height: 32px;
+  width: auto;
+}
+
+.link {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--mantine-color-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.link:hover {
+  color: var(--mantine-color-themeColor1-6);
+}
+
+.chevron {
+  transition: transform 150ms ease;
+}
+
+.link:hover .chevron {
+  transform: translateY(1px);
+}
+
+.drawerLink {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--mantine-color-text);
+}
+
+.drawerLabel {
+  font-weight: 700;
+}
