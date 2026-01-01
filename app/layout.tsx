@@ -39,9 +39,7 @@ export default function RootLayout({ children }: { children: any }) {
             logo={{ src: logoImage, alt: 'Heavenly Hands', href: '/' }}
           />
           <main>
-            <Container size="lg">
-              {children}
-            </Container>
+            {children}
           </main>
           <Footer />
         </MantineProvider>

@@ -1,0 +1,25 @@
+import { Button, Container, Overlay, Text, Title } from '@mantine/core';
+import classes from './HeroContent.module.css';
+
+export function HeroContent() {
+    return (
+        <div className={classes.hero}>
+            <Overlay
+                gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)"
+                opacity={1}
+                zIndex={0}
+            />
+            <Container className={classes.container} size="md">
+                <Title className={classes.title}>Nurturing Wellness & Empowering Lives
+                </Title>
+                <Text className={classes.description} size="xl" mt="xl">
+                    Heavenly Hands Restore balance and harmony with Heavenly Hands' therapeutic massages. Our expert therapists can help alleviate pain, reduce stress, and improve overall well-being.
+                </Text>
+
+                <Button size="xl" radius="xl" className={classes.control}>
+                    Book Appointment
+                </Button>
+            </Container>
+        </div>
+    );
+}

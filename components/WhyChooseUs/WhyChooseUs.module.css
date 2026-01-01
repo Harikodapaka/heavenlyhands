@@ -1,0 +1,42 @@
+.section {
+  padding: 40px 0;
+}
+
+.inner {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content {
+  max-width: 760px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--mantine-color-gray-7);
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--mantine-color-gray-7);
+}
+
+.cta {
+  width: fit-content;
+}
+
+@media (max-width: 48em) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
