@@ -1,0 +1,20 @@
+.section {
+    padding: 96px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+}
+
+.cta {
+    margin-top: auto;
+}
+
+.title {
+    font-size: 52px;
+    font-weight: 500;
+    color: var(--mantine-color-gray-6);
+}
