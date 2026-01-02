@@ -5,11 +5,11 @@ export const links: HeaderLink[] = [
     {
         label: 'Services',
         links: [
-            { label: 'Registered Massage Therapy', href: '#massage-therapy' },
-            { label: 'Acupuncture', href: '#acupuncture' },
-            { label: 'Osteopathy', href: '#osteopathy' },
+            { label: 'Registered Massage Therapy', href: '/massage-therapy' },
+            { label: 'Acupuncture', href: '/acupuncture' },
+            { label: 'Osteopathy', href: '/osteopathy' },
         ],
     },
-    { label: 'Contact', href: '#contact' },
-    { label: 'Pricing', href: '#pricing' },
+    { label: 'Contact', href: '/contact' },
+    { label: 'Pricing', href: '/pricing' },
 ];
