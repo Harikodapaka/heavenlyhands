@@ -1,5 +1,6 @@
 import { Button, Container, Overlay, Text, Title } from '@mantine/core';
 import classes from './HeroContent.module.css';
+import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
 
 export function HeroContent() {
     return (
@@ -16,7 +17,7 @@ export function HeroContent() {
                     Heavenly Hands Restore balance and harmony with Heavenly Hands' therapeutic massages. Our expert therapists can help alleviate pain, reduce stress, and improve overall well-being.
                 </Text>
 
-                <Button size="xl" radius="xl" className={classes.control}>
+                <Button size="xl" radius="xl" className={classes.control} component='a' href={BOOKING_JANEAPP_URL}>
                     Book Appointment
                 </Button>
             </Container>

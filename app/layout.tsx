@@ -1,4 +1,5 @@
 import '@mantine/core/styles.css';
+import './globals.css';
 
 import React from 'react';
 import logoImage from '@/public/heavenly-hands-logo.png';
@@ -7,6 +8,7 @@ import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { links } from '@/components/Header/links';
 import { theme } from '@/theme';
+import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
 
 export const metadata = {
   title: 'Heavenly Hands - Massage Therapy in Cambridge, Kitchener & Waterloo',
@@ -35,7 +37,7 @@ export default function RootLayout({ children }: { children: any }) {
         <MantineProvider theme={theme}>
           <Header
             links={links}
-            cta={{ label: 'Book Appointment', href: '#book' }}
+            cta={{ label: 'Book Appointment', href: BOOKING_JANEAPP_URL }}
             logo={{ src: logoImage, alt: 'Heavenly Hands', href: '/' }}
           />
           <main>

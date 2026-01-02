@@ -1,0 +1,1 @@
+export const BOOKING_JANEAPP_URL = 'https://heavenlyhandsmassagetherapy.janeapp.com/#staff_member/1';
