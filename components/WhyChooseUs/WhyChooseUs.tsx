@@ -27,7 +27,7 @@ export function WhyChooseUs() {
           <Text className={classes.description} size='md'>
             Our number one priority is to help you achieve optimal health and wellness.
           </Text>
-          <Button component={Link} href={BOOKING_JANEAPP_URL} size="xl" radius="xl" className={classes.cta}>
+          <Button component={Link} href={BOOKING_JANEAPP_URL} size="md" radius="xl" className={classes.cta}>
             Book Appointment
           </Button>
         </Stack>

@@ -1,5 +1,7 @@
-import { HeroImageRight } from "@/components/HeroContent/HeroImageRight";
-import { Anchor, Box, Container, Group, Stack, Text } from "@mantine/core";
+import { HeroImageRight } from '@/components/HeroContent/HeroImageRight';
+import { Anchor, Box, Container, Group, Stack, Text } from '@mantine/core';
+import { CONTACT_ADDRESS, CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL } from '@/app/utils/constants';
+import { IconPhoneCall, IconMapPin, IconMail } from '@tabler/icons-react';
 
 export default function ContactPage() {
     return (
@@ -7,32 +9,47 @@ export default function ContactPage() {
             <HeroImageRight
                 backgroundImage="/yoga-on-beach-scaled.jpg"
                 title="Contact Us"
-                description="We’re here to assist you on your journey to optimal health and well-being.
-Please feel free to reach out to us with any questions, concerns, or to schedule an appointment. Our dedicated team is eager to assist you in any way we can. Your health is our priority."
+                description="We’re here to assist you on your journey to optimal health and well-being. Please feel free to reach out to us with any questions, concerns, or to schedule an appointment. Our dedicated team is eager to assist you in any way we can. Your health is our priority."
                 cta={{ label: 'Reach Us', href: '#contact-us' }}
             />
             <Container size="lg" id="contact-us">
                 <Group gap="xl" pt="60" pb="60" align="flex-start" justify="space-between">
                     <Stack flex={1}>
-                        <Anchor href="tel:5189998898">
-                            <Text size="xl">
-                                518-999-8898 (SAMANTHA)
-                            </Text>
-                        </Anchor>
+                        <Group>
+                            <IconPhoneCall size={30} color="var(--mantine-color-gray-9)" />
+                            <>
+                                <Anchor href={`tel:${CONTACT_PHONE_TEL}`}>
+                                    <Text size="xl">
+                                        {CONTACT_PHONE} (SAMANTHA)
+                                    </Text>
+                                </Anchor>
+                            </>
+                        </Group>
                         <Text size="sm" c='dimmed'>*If we are busy with a patient please leave a voicemail and we will get back to you. Please note we do not have a receptionist.</Text>
                         <Box h={300} w={400} bg="gray.2">
                             map
                         </Box>
-                        <Anchor href="https://share.google/dmMaBMBcdsEb7pcFl">
-                            <Text>
-                                122 Edward St, Cambridge, Ontario, N3C 1K3
-                            </Text>
-                        </Anchor>
-                        <Anchor href="mailto:5189998898">
-                            <Text>
-                                samantha.dasilva@hotmail.ca
-                            </Text>
-                        </Anchor>
+                        <Group>
+                            <IconMapPin size={30} color="var(--mantine-color-gray-9)" />
+                            <>
+                                <Anchor href="https://share.google/dmMaBMBcdsEb7pcFl">
+                                    <Text>
+                                        {CONTACT_ADDRESS}
+                                    </Text>
+                                </Anchor>
+
+                            </>
+                        </Group>
+                        <Group>
+                            <IconMail size={30} color="var(--mantine-color-gray-9)" />
+                            <>
+                                <Anchor href={`mailto:${CONTACT_EMAIL}`}>
+                                    <Text>
+                                        {CONTACT_EMAIL}
+                                    </Text>
+                                </Anchor>
+                            </>
+                        </Group>
                     </Stack>
                     <Stack flex={1} miw={400}>
                         <Text size="xl">
@@ -59,7 +76,7 @@ Please feel free to reach out to us with any questions, concerns, or to schedule
                         <Text>
                             Sunday: Closed
                         </Text>
-                        <Text c={"orange"}>
+                        <Text c="orange">
                             BY APPOINTMENT ONLY
                         </Text>
                     </Stack>

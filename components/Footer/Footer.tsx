@@ -2,9 +2,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ActionIcon, Anchor, Box, Container, Divider, Group, Stack, Text } from '@mantine/core';
 import { IconBrandFacebook, IconBrandInstagram, IconExternalLink } from '@tabler/icons-react';
+import {
+  CONTACT_ADDRESS,
+  CONTACT_EMAIL,
+  CONTACT_PHONE,
+  CONTACT_PHONE_TEL,
+} from '@/app/utils/constants';
 import logoImage from '@/public/heavenly-hands-logo.png';
 import classes from './Footer.module.css';
-import { NextAnchor } from './NextAnchor';
 
 const socialLinks = [
   { label: 'Facebook', href: 'https://facebook.com', color: '#0866FF', icon: IconBrandFacebook },
@@ -12,15 +17,15 @@ const socialLinks = [
 ];
 
 const hours = [
-  'Mon - Fri: 9:00 AM - 7:00 PM',
+  'Mon - Fri: 9:00 AM - 6:00 PM',
   'Sat: 10:00 AM - 5:00 PM',
   'Sun: Closed',
 ];
 
 const contactLinks = [
-  { label: '122 Edward St, Cambridge, Ontario, N3C 1K3' },
-  { label: '+1 (519) 555-1234', href: 'tel:+15195551234' },
-  { label: 'samantha.dasilva@hotmail.ca', href: 'mailto:samantha.dasilva@hotmail.ca' },
+  { label: CONTACT_ADDRESS },
+  { label: CONTACT_PHONE, href: `tel:${CONTACT_PHONE_TEL}` },
+  { label: CONTACT_EMAIL, href: `mailto:${CONTACT_EMAIL}` },
 ];
 
 export function Footer() {
@@ -82,9 +87,9 @@ export function Footer() {
         <Group justify="space-between" gap="sm">
           <Text size="sm">
             © 2025 Heavenly Hands Inc. All Rights Reserved |{' '}
-            <NextAnchor href="/privacy" underline='always'>
+            <Link href="/privacy-policy" className={classes.link}>
               Privacy Policy
-            </NextAnchor>
+            </Link>
           </Text>
           <Text size="xs" c="dimmed" ta="left">
             Developed by{' '}
