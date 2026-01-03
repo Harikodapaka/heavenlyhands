@@ -26,7 +26,7 @@ export function AboutUs() {
                     </Text>
                     <Button
                         component={Link}
-                        href="#team"
+                        href="/our-team"
                         size="md"
                         radius="xl"
                         color="themeColor1"
