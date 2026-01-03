@@ -1,6 +1,6 @@
 import { HeroImageRight } from '@/components/HeroContent/HeroImageRight';
 import { ServiceDetail } from '@/components/ServiceDetail/ServiceDetail';
-import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
+import { BOOKING_JANEAPP_URL } from '@/utils/constants';
 
 const description = [
   'Pregnancy Massage is designed to support expectant mothers with safe positioning, gentle techniques, and focused relief for common aches and pains.',

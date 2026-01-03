@@ -15,7 +15,7 @@ import {
   Title,
 } from '@mantine/core';
 import { HeroImageRight } from '@/components/HeroContent/HeroImageRight';
-import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
+import { BOOKING_JANEAPP_URL } from '@/utils/constants';
 import { policyItems } from './policy-items';
 import { pricing } from './pricing';
 

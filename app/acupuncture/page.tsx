@@ -1,6 +1,6 @@
 import { HeroImageRight } from '@/components/HeroContent/HeroImageRight';
 import { ServiceDetail } from '@/components/ServiceDetail/ServiceDetail';
-import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
+import { BOOKING_JANEAPP_URL } from '@/utils/constants';
 
 const description = [
   'Acupuncture supports the body’s natural healing response by stimulating targeted points to reduce pain and restore balance. Treatments are individualized to your symptoms and overall wellness goals.',

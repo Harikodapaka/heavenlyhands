@@ -1,6 +1,6 @@
 import { HeroImageRight } from '@/components/HeroContent/HeroImageRight';
 import { ServiceDetail } from '@/components/ServiceDetail/ServiceDetail';
-import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
+import { BOOKING_JANEAPP_URL } from '@/utils/constants';
 
 const description = [
   'Massage Therapy involves the manipulation of muscle, connective tissue, and joints of the body. Through massage, one can enhance function, aid in the healing process, and promote relaxation and well-being. Regular massage can help improve circulation by bringing oxygen and other nutrients to body tissues. It has also been proven to reduce pain, increase flexibility and mobility, and help clear lactic acid from our bodies, which reduces pain and stiffness in muscles and joints.',
