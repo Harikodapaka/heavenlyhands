@@ -7,7 +7,7 @@ export const links: HeaderLink[] = [
         links: [
             { label: 'Registered Massage Therapy', href: '/massage-therapy' },
             { label: 'Acupuncture', href: '/acupuncture' },
-            { label: 'Osteopathy', href: '/osteopathy' },
+            { label: 'Pregnancy Massage', href: '/pregnancy-massage' },
         ],
     },
     { label: 'Contact', href: '/contact' },
