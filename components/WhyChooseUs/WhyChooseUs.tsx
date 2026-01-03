@@ -7,13 +7,13 @@ import classes from './WhyChooseUs.module.css';
 
 export function WhyChooseUs() {
   return (
-    <Box component="section" id="why-choose-us" className={classes.section}>
+    <Box component="section" id="why-choose-us" py="xl">
       <Container size="lg" className={classes.inner}>
         <Stack gap="md" className={classes.content}>
           <Title order={2} className={classes.title}>
-            Why Choose HeavenlyHands?
+            Why Choose Heavenly Hands?
           </Title>
-          <Text className={classes.description}>
+          <Text className={classes.description} size='md'>
             Serving the Town of Milton since 2010, HeavenlyHands Wellness Clinic prides itself in
             supporting the health and wellness of our community. All our therapists and
             practitioners are
@@ -21,10 +21,10 @@ export function WhyChooseUs() {
             Sports Injuries, Prenatal Aches and Pains, Migraine and Headache Treatments or a simple
             Relaxation Massage to destress and unwind.
           </Text>
-          <Text className={classes.description}>
+          <Text className={classes.description} size='md'>
             No matter your reason for visiting us, rest assured you are in great healing hands.
           </Text>
-          <Text className={classes.description}>
+          <Text className={classes.description} size='md'>
             Our number one priority is to help you achieve optimal health and wellness.
           </Text>
           <Button component={Link} href={BOOKING_JANEAPP_URL} size="xl" radius="xl" className={classes.cta}>

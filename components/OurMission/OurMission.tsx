@@ -3,12 +3,12 @@ import classes from './OurMission.module.css';
 
 export function OurMission() {
   return (
-    <Box component="section" id="mission" className={classes.section}>
-      <Container size="lg" className={classes.inner}>
-        <Title order={2} className={classes.title}>
+    <Box component="section" id="mission" py="xl">
+      <Container size="lg">
+        <Title order={2} className={classes.title} my="md">
           Our Mission
         </Title>
-        <Text className={classes.description}>
+        <Text className={classes.description} size="md">
           Empowering individuals on their journey to optimal physical health and well-being.
           Through personalized and evidence-based care, we strive to facilitate recovery, alleviate
           pain, and enhance functional abilities, enabling our clients to lead active and fulfilling

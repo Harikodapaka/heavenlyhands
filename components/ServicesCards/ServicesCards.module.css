@@ -1,12 +1,9 @@
-.section {
-    padding: 96px 0;
-}
-
 .card {
     display: flex;
     flex-direction: column;
     height: 100%;
     gap: 1rem;
+    max-width: 400px;
 }
 
 .cta {
@@ -14,7 +11,17 @@
 }
 
 .title {
-    font-size: 52px;
+    font-size: 42px;
     font-weight: 500;
-    color: var(--mantine-color-gray-6);
+}
+
+.grid {
+    justify-items: center;
+}
+
+@media (max-width: 48em) {
+
+    .title {
+        font-size: 34px;
+    }
 }

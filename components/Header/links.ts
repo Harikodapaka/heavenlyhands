@@ -1,7 +1,7 @@
 import { Header, type HeaderLink } from '@/components/Header/Header';
 
 export const links: HeaderLink[] = [
-    { label: 'About', href: '#about' },
+    { label: 'About', href: '/#about' },
     {
         label: 'Services',
         links: [

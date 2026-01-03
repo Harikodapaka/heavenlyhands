@@ -37,11 +37,10 @@
 
 .title {
     color: var(--mantine-color-white);
-    font-family: Outfit, var(--mantine-font-family);
     font-weight: 500;
     line-height: 1.05;
     max-width: 500px;
-    font-size: 48px;
+    font-size: 50px;
 
     @media (max-width: $mantine-breakpoint-md) {
         max-width: 100%;

@@ -10,10 +10,9 @@ export function HeroContent() {
                 opacity={1}
                 zIndex={0}
             />
-            <Container className={classes.container} size="md">
-                <Title className={classes.title}>Nurturing Wellness & Empowering Lives
-                </Title>
-                <Text className={classes.description} size="xl" mt="xl">
+            <Container className={classes.container} size="lg">
+                <Title className={classes.title}>Nurturing Wellness & Empowering Lives</Title>
+                <Text className={classes.description} size="md" mt="xl">
                     Heavenly Hands Restore balance and harmony with Heavenly Hands' therapeutic massages. Our expert therapists can help alleviate pain, reduce stress, and improve overall well-being.
                 </Text>
 
