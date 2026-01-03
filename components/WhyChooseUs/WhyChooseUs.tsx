@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { Box, Button, Container, NavLink, Stack, Text, Title } from '@mantine/core';
-import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
+import { BOOKING_JANEAPP_URL } from '@/utils/constants';
 import classes from './WhyChooseUs.module.css';
 
 export function WhyChooseUs() {

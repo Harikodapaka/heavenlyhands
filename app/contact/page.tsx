@@ -1,6 +1,6 @@
 import { HeroImageRight } from '@/components/HeroContent/HeroImageRight';
 import { Anchor, Box, Container, Group, Stack, Text } from '@mantine/core';
-import { CONTACT_ADDRESS, CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL } from '@/app/utils/constants';
+import { CONTACT_ADDRESS, CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL } from '@/utils/constants';
 import { IconPhoneCall, IconMapPin, IconMail } from '@tabler/icons-react';
 
 export default function ContactPage() {

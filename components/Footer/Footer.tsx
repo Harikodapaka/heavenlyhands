@@ -7,7 +7,7 @@ import {
   CONTACT_EMAIL,
   CONTACT_PHONE,
   CONTACT_PHONE_TEL,
-} from '@/app/utils/constants';
+} from '@/utils/constants';
 import logoImage from '@/public/heavenly-hands-logo.png';
 import classes from './Footer.module.css';
 

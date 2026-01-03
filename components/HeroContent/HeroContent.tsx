@@ -1,6 +1,6 @@
 import { Button, Container, Overlay, Text, Title } from '@mantine/core';
 import classes from './HeroContent.module.css';
-import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
+import { BOOKING_JANEAPP_URL } from '@/utils/constants';
 
 export function HeroContent() {
     return (

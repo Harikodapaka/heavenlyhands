@@ -8,7 +8,7 @@ import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { links } from '@/components/Header/links';
 import { theme } from '@/theme';
-import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
+import { BOOKING_JANEAPP_URL } from '@/utils/constants';
 
 export const metadata = {
   title: 'Heavenly Hands - Massage Therapy in Cambridge, Kitchener & Waterloo',
