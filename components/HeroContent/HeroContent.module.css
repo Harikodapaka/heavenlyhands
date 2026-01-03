@@ -23,18 +23,14 @@
 
 .title {
     color: var(--mantine-color-white);
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     line-height: 1.1;
+    max-width: 600px;
 
     @media (max-width: $mantine-breakpoint-sm) {
-        font-size: 40px;
+        font-size: 34px;
         line-height: 1.2;
-    }
-
-    @media (max-width: $mantine-breakpoint-xs) {
-        font-size: 28px;
-        line-height: 1.3;
     }
 }
 

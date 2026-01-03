@@ -15,9 +15,9 @@ import {
   Title,
 } from '@mantine/core';
 import { HeroImageRight } from '@/components/HeroContent/HeroImageRight';
+import { BOOKING_JANEAPP_URL } from '@/app/utils/constants';
 import { policyItems } from './policy-items';
 import { pricing } from './pricing';
-import { BOOKING_JANEAPP_URL } from '../utils/constants';
 
 export default function PricingPage() {
   return (
@@ -27,7 +27,7 @@ export default function PricingPage() {
         title="Pricing"
         description="Transparent pricing for the services we offer. All sessions include an individualized consultation and a tailored treatment plan."
         cta={{
-          label: 'Read policies',
+          label: 'Read Appointment Policy',
           href: '#appointment-policies'
         }}
       />

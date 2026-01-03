@@ -8,19 +8,19 @@ import classes from './AboutUs.module.css';
 
 export function AboutUs() {
     return (
-        <Box component="section" id="about" className={classes.section}>
+        <Box component="section" id="about" py="xl">
             <Container size="lg" className={classes.inner}>
                 <Stack gap="md" className={classes.content}>
-                    <Title order={2} className={classes.title} m="md">
+                    <Title order={2} className={classes.title} my="md">
                         About Us
                     </Title>
-                    <Text className={classes.description}>
+                    <Text className={classes.description} size='md'>
                         At Heavenly Hands, we believe in the power of creating a nurturing environment that
                         fosters balance and helps you achieve a state of overall wellness. Our team is
                         committed to providing personalized care, ensuring that you receive the attention and
                         support you need on your journey to optimal health.
                     </Text>
-                    <Text className={classes.description}>
+                    <Text className={classes.description} size='md'>
                         Step into our warm and welcoming space, and let us guide you towards a healthier,
                         happier you.
                     </Text>

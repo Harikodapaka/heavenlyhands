@@ -68,8 +68,8 @@ export function Header({ links, logo, cta }: HeaderProps) {
   const mobileLinks = links.map((link) =>
     link.links?.length ? (
       <Box key={link.label}>
-        <Text className={classes.drawerLabel}>{link.label}</Text>
-        <Stack gap={6} pl="md">
+        <Text className={classes.drawerLabel}>{link.label} <IconChevronDown size={14} /></Text>
+        <Stack gap="md" pl="md" pt="md">
           {link.links.map((item) => (
             <Link key={item.label} className={classes.drawerLink} href={item.href} onClick={close}>
               {item.label}
@@ -137,6 +137,7 @@ export function Header({ links, logo, cta }: HeaderProps) {
               size="lg"
               aria-label="Toggle color scheme"
               onClick={toggleColorScheme}
+              w="100%"
             >
               {colorScheme === 'dark' ? <IconSun size={18} /> : <IconMoonStars size={18} />}
             </ActionIcon>
